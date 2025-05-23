@@ -28,6 +28,9 @@ public class ExpenseTracker {
 
     private void run() {
         while (true) {
+        	System.out.println("\n===============================");
+        	System.out.println("  🧾 WELCOME TO EXPENSE TRACKER");
+        	System.out.println("===============================\n");
             System.out.println("\n1. Add Income\n2. Add Expense\n3. View Monthly Summary\n4. Save to File\n5. Exit");
             System.out.print("Choose: ");
             switch (scanner.nextLine().trim()) {
